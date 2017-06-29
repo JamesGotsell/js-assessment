@@ -21,6 +21,11 @@ exports.bestPracticesAnswers = {
   },
 
   identity: function(val1, val2) {
+      var value1 = val1;
+      var value2 = val2;
 
+      if(value1 ===  value2){
+        return true
+      }
   }
 };
