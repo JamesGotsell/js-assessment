@@ -17,14 +17,15 @@ exports.bestPracticesAnswers = {
   },
 
   parseInt: function(num) {
+
     return parseInt(num);
   },
 
   identity: function(val1, val2) {
-      var value1 = val1;
-      var value2 = val2;
-
-      if(value1 ===  value2){
+    console.log(typeof val1, typeof val2)
+      if(typeof val1 != typeof val2){
+        return false
+      }else {
         return true
       }
   }
