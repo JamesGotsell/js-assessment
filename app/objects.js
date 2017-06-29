@@ -9,7 +9,7 @@ exports.objectsAnswers = {
   },
 
   alterObjects: function(constructor, greeting) {
-
+     return constructor.bind(greeting)
   },
 
   iterate: function(obj) {
